@@ -17,7 +17,7 @@ Automate your daily Arxiv paper discovery! This Python script fetches the latest
 
 - Python 3.x
 - Required Python libraries: `beautifulsoup4`, `requests`.
-- (Optional) Cloud service (the author uses OCI free-tier)
+- (Optional) Cloud service (the author uses `OCI free-tier`)
 
 To install the libraries, use:
 
