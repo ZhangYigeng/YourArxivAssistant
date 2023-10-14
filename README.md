@@ -65,13 +65,12 @@ python main.py
 ```
 
 ### 4. Schedule a daily email-sending service
-To automatically send emails at a particular time daily, you can use the ```cron``` scheduler in Unix-based systems.
-
-1. **Open the Crontab for Editing**
+To automatically send emails at a particular time daily, you can use the ```cron``` scheduler in Unix-based systems.  
+**Open the Crontab for Editing**  
 ```bash
 crontab -e
 ```
-2. **Add the following line**
+**Add the following line**
 ```bash
 0 8 * * * /path/to/your/python3 /path/to/your/script/main.py
 ```
