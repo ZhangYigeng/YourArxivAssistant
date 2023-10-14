@@ -27,7 +27,7 @@ pip install beautifulsoup4 requests
 
 ### 2. Configuration
 
-Rename the provided `config_sample.json` to `config.json`. This JSON file is used to specify user profiles and email sending credentials.
+The `config.json` JSON file is used to specify user profiles and email sending credentials.
 
 Sample configuration:
 
