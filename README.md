@@ -34,7 +34,7 @@ Sample configuration:
 ```json
 {
   "sender_email": "your.assistant@example.com",
-  "sender_password": "XXXX XXXX XXXX XXXX", // Gmail App password
+  "sender_password": "XXXX XXXX XXXX XXXX", // Gmail APP password
   "users": [
     {
       "name": "John Doe",
