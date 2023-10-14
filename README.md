@@ -34,12 +34,13 @@ Sample configuration:
 ```json
 {
   "sender_email": "your.assistant@example.com",
-  "sender_password": "XXXX XXXX XXXX XXXX", # Gmail App password
+  "sender_password": "XXXX XXXX XXXX XXXX", // Gmail App password
   "users": [
     {
       "name": "John Doe",
       "email": "john.doe@example.com",
-      "arxiv_url": ["https://arxiv.org/list/cs.AI/recent"],
+      "arxiv_url": ["https://arxiv.org/list/cs.CV/pastweek?show=1000"],
+      // use a url like this for your subject, a silly but simple method to make sure today's papers are collected
       "authors": ["Author Name 1", "Author Name 2"],
       "keywords": ["neural networks", "deep learning"]
     },
