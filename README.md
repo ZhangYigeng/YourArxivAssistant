@@ -1,6 +1,7 @@
 # Arxiv Paper Notifier
 
-Automate your daily Arxiv paper discovery! This Python script fetches the latest papers from Arxiv, filters them based on specific keywords and authors, and then sends a daily digest email to specified users.
+Automate your daily Arxiv paper discovery! This Python script fetches the latest papers from Arxiv, filters them based on specific keywords and authors, and then sends a daily digest email to specified users.  
+**This project is mainly developed by ChatGPT (GPT-4) under human supervision.**
 
 ## Features
 
@@ -15,6 +16,7 @@ Automate your daily Arxiv paper discovery! This Python script fetches the latest
 
 - Python 3.x
 - Required Python libraries: `beautifulsoup4`, `requests`.
+- (Optional) Cloud service (the author uses OCI free-tier)
 
 To install the libraries, use:
 
