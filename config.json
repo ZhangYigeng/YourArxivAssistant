@@ -1,0 +1,20 @@
+{
+    "sender_email": "your.assistant@example.com",
+    "sender_password": "XXXX XXXX XXXX XXXX",
+    "users": [
+        {
+            "name": "Researcher One",
+            "email": "researcher.one@example.com",
+            "arxiv_url":  ["https://arxiv.org/list/cs.AI/pastweek?show=1000", "https://arxiv.org/list/cs.CV/pastweek?show=1000", "https://arxiv.org/list/cs.CL/pastweek?show=1000"],
+            "keywords": ["agent", "agents", "Multimodal"],
+            "authors": ["Jiawei Han", "Kaiming He"]
+        },
+        {
+            "name": "Researcher Two",
+            "email": "researcher.two@example.com",
+            "arxiv_url":  ["https://arxiv.org/list/cs.CV/pastweek?show=1000", "https://arxiv.org/list/cs.CL/pastweek?show=1000"],
+            "keywords": ["agent", "LLM", "Multimodal"],
+            "authors": ["Jiawei Han", "Kaiming He"]
+        }
+    ]
+}
