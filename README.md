@@ -65,7 +65,6 @@ python main.py
 ```
 
 ### 4. Schedule a daily email-sending service
-## Scheduling the Script Using `cron`
 To automatically send emails at a particular time daily, you can use the `cron` scheduler in Unix-based systems.
 
 1. **Open the Crontab for Editing**
@@ -76,6 +75,12 @@ crontab -e
 ```bash
 0 8 * * * /path/to/your/python3 /path/to/your/script/main.py
 ```
+Here's a breakdown of the cron timing format:
+0 stands for the minute (0th minute)
+8 stands for the hour (8th hour or 8 AM)
+The three * symbols mean every day of the month, every month, and every day of the week, respectively.
+Ensure you replace /usr/bin/python3 with the path to your Python interpreter (you can get this by running which python3 command) and /path/to/your/script/main.py with the full path to your main.py script.
+
 ** Important Notes**
 Ensure your script is executable:
 ```bash
@@ -86,3 +91,5 @@ To keep a log of script outputs and errors, append the output to a log file:
 ```bash
 0 8 * * * /usr/bin/python3 /path/to/your/script/main.py >> /path/to/your/script/logname.log 2>&1
 ```
+
+## 
